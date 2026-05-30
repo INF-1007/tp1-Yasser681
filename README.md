@@ -115,7 +115,6 @@ Notes :
 - Les minutes doivent être affichées sur 2 chiffres (ex: 11h00, 1h05).
 
 ## 02. Affluence sur les scènes
-
 Lors du FestiSon 2026, le comité souhaite visualiser l'affluence autour des scènes avec un diagramme similaire à celui-ci :
 ![Affluence sur les scènes](https://t4.ftcdn.net/jpg/03/33/23/41/360_F_333234186_rWQQpvHnOnia4l9RIYHQ3UsK5GeHAEOr.jpg)
 
@@ -188,9 +187,6 @@ Exemple de format exact :
  7 | ❚ ❚ ❚ . . ❚ ❚ ❚
  6 | ❚ ❚ ❚ ❚ ❚ ❚ ❚ ❚
  5 | ❚ ❚ ❚ ❚ ❚ ❚ ❚ ❚
- 4 | ❚ ❚ ❚ ❚ ❚ ❚ ❚ ❚
- 3 | ❚ ❚ ❚ ❚ ❚ ❚ ❚ ❚
- 2 | ❚ ❚ ❚ ❚ ❚ ❚ ❚ ❚
  1 | ❚ ❚ ❚ ❚ ❚ ❚ ❚ ❚
      P Q R S T U V W
 ```
@@ -200,7 +196,10 @@ Exemple de format exact :
 Écrivez un programme qui compare trois options pour arriver au Parc Jean-Drapeau (marche, vélo en libre-service, métro), en incluant un temps de contrôle à l'entrée du festival pour la vérification des billets. 
 
 **Le programme doit prendre en entrée :**
-- Distance jusqu'au Parc Jean-Drapeau (km, float)
+- Distance jusqu'a ❚
+ 4 | ❚ ❚ ❚ ❚ ❚ ❚ ❚ ❚
+ 3 | ❚ ❚ ❚ ❚ ❚ ❚ ❚ ❚
+ 2 | ❚ ❚ ❚ ❚ ❚ ❚ ❚u Parc Jean-Drapeau (km, float)
 - Temps d'attente pour un vélo en libre-service (minutes, float)
 - Temps du trajet en métro (minutes, float)
 - Temps de contrôle à l'entrée du festival (minutes, float)
